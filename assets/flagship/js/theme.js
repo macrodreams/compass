@@ -77,7 +77,7 @@ window.compass = window.compass || {};
 						lastNavItem  = navItems.last();
 
 					responsiveMenuButton.toggleClass( 'activated' ).attr( 'aria-expanded', true );
-					$( '.site-container' ).on( 'click.wpscCloseSidr', function( event ) {
+					$( '.site-container' ).on( 'click.CloseSidr', function( event ) {
 						$.sidr( 'close', name );
 						event.preventDefault();
 					});
@@ -114,7 +114,7 @@ window.compass = window.compass || {};
 				},
 				onClose: function() {
 					responsiveMenuButton.toggleClass( 'activated' ).attr( 'aria-expanded', false );
-					$( '.site-container' ).off( 'click.wpscCloseSidr' );
+					$( '.site-container' ).off( 'click.CloseSidr' );
 					// Remove the toggle button keydown event.
 					responsiveMenuButton.off( 'keydown.sidrNav' );
 				}
@@ -124,9 +124,7 @@ window.compass = window.compass || {};
 			$( window ).resize(function() {
 				if( window.innerWidth > 1023 ) {
 					$.sidr('close', 'sidr-main');
-					$( '#responsive-menu-button' ).attr( 'aria-pressed', function() {
-						return 'false';
-					});
+					responsiveMenuButton.attr( 'aria-expanded', false );
 				}
 			});
 		},
