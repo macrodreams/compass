@@ -31,8 +31,8 @@ Genericons
 
 
 body {
-	background: $entry-background-color;
 	@include span-columns(8);
+	background: $entry-background-color;
 }
 
 /*

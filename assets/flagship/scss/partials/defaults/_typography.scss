@@ -23,11 +23,6 @@ textarea:focus,
 	@include transition(all, 0.1s, ease-in-out);
 }
 
-::-moz-selection {
-	background-color: $base-selection-background-color;
-	color: $base-selection-color;
-}
-
 ::selection {
 	background-color: $base-selection-background-color;
 	color: $base-selection-color;

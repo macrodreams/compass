@@ -26,7 +26,8 @@
 		width: 100%;
 	}
 
-	input:hover[type="submit"] {
+	input[type="submit"]:hover,
+	input[type="submit"]:focus {
 		background-color: $enews-button-background-hover-color;
 		color: $enews-button-font-hover-color;
 	}

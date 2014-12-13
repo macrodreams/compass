@@ -17,12 +17,12 @@ input[type="submit"],
 
 button:hover,
 button:focus,
-input:hover[type="button"],
-input:focus[type="button"],
-input:hover[type="reset"],
-input:focus[type="reset"],
-input:hover[type="submit"],
-input:focus[type="submit"],
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
 .button:hover,
 .button:focus {
 	background-color: $base-button-background-hover-color;

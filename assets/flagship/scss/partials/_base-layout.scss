@@ -56,8 +56,8 @@
 	}
 
 	.layout-2c-r .content {
-		float: right;
 		@include omega();
+		float: right;
 	}
 
 	/* Primary Sidebar
@@ -67,8 +67,8 @@
 	}
 
 	.layout-2c-l .sidebar {
-		float: right;
 		@include omega();
+		float: right;
 	}
 
 	/* Secondary Sidebar
@@ -78,8 +78,8 @@
 	}
 
 	.content-sidebar-sidebar .sidebar-secondary {
-		float: right;
 		@include omega();
+		float: right;
 	}
 }
 
@@ -126,7 +126,7 @@
 	}
 
 	.last {
-		clear: right;
 		@include omega();
+		clear: right;
 	}
 }

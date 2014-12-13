@@ -39,10 +39,15 @@
 	}
 
 	button:hover,
-	input:hover[type="button"],
-	input:hover[type="reset"],
-	input:hover[type="submit"],
-	.button:hover {
+	button:focus,
+	.button:hover,
+	.button:focus,
+	input[type="button"]:hover,
+	input[type="button"]:hover,
+	input[type="submit"]:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="reset"]:hover {
 		background-color: $footer-widgets-button-background-hover-color;
 		color: $footer-widgets-button-font-hover-color;
 	}
@@ -74,8 +79,8 @@
 
 @include media($medium-screen-up) {
 	.footer-widgets-3 {
-		clear: right;
 		@include omega();
+		clear: right;
 	}
 
 	.footer-widgets-1,

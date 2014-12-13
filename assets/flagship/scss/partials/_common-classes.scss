@@ -20,6 +20,10 @@
 	border: 1px solid $author-box-border-color;
 	padding: 20px;
 
+	@include media($small-screen-up) {
+		padding: 40px;
+	}
+
 	.social-icons {
 		display: block;
 		padding-top: 26px;
@@ -30,9 +34,6 @@
 		}
 	}
 
-	@include media($small-screen-up) {
-		padding: 40px;
-	}
 }
 
 .author-box-title {
@@ -91,7 +92,6 @@
 	}
 
 	input[type="password"] {
-		display: block;
 		margin-bottom: 20px;
 	}
 }
@@ -130,8 +130,8 @@
 	}
 }
 
-a.alignleft,
-a.alignright {
+.alignleft,
+.alignright {
 	max-width: 100%;
 }
 

@@ -172,6 +172,7 @@
 --------------------------------------------- */
 
 .menu-button {
+	@include transition (all 0.2s ease-in-out);
 	display: block;
 	float: right;
 	margin: 17px 0 0;
@@ -179,7 +180,6 @@
 	color: $menu-button-link-color;
 	background: $menu-button-background-color;
 	border-radius: $base-border-radius;
-	@include transition (all 0.2s ease-in-out);
 	cursor: pointer;
 
 	@include media($medium-screen-up) {
@@ -229,11 +229,11 @@
 			color: $sidr-color;
 			padding: $sidr-item-padding;
 			border-bottom: 1px solid $sidr-border-color;
+		}
 
-			&:hover {
-				color: $sidr-hover-color;
-				background: lighten($sidr-background-color, 3);
-			}
+		li a:hover {
+			color: $sidr-hover-color;
+			background: lighten($sidr-background-color, 3);
 		}
 	}
 
@@ -258,12 +258,8 @@
 			border-right: 0;
 		}
 
-		.sub-menu {
-			margin: 0;
-
-			li a {
-				padding-left: $sidr-item-padding + 20px;
-			}
+		.sub-menu li a {
+			padding-left: $sidr-item-padding + 20px;
 		}
 	}
 }
@@ -333,6 +329,16 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
+	@include media($medium-screen-up) {
+		.nav-previous {
+			float: left;
+		}
+
+		.nav-next {
+			float: right;
+		}
+	}
+
 	.nav-next a,
 	.nav-previous a {
 		background: $nav-single-background-color;
@@ -351,16 +357,6 @@
 	.nav-previous a:focus {
 		background: $nav-single-background-hover-color;
 		color: $nav-single-link-color;
-	}
-
-	@include media($medium-screen-up) {
-		.nav-previous {
-			float: left;
-		}
-
-		.nav-next {
-			float: right;
-		}
 	}
 }
 

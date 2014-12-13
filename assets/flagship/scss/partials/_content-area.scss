@@ -30,16 +30,17 @@
 }
 
 .corner-ribbon {
+	@include size(85px);
 	overflow: hidden;
 	position: absolute;
 	right: -1px;
-	@include size($corner-ribbon-size);
 	top: -1px;
 
 	.ribbon-content {
+		@include transform(rotate(45deg));
 		background-color: $corner-ribbon-background-color;
 		color: $corner-ribbon-font-color;
-		font-size: 0.8em;
+		font-size: $secondary-font-size - 2px;
 		font-weight: 800;
 		margin: 0;
 		position: relative;
@@ -47,7 +48,6 @@
 		left: -5px;
 		text-align: center;
 		top: 15px;
-		@include transform(rotate(45deg));
 		width: 120px;
 	}
 }
