@@ -20,6 +20,7 @@ linters:
     enabled: false # To be handled with CSSComb
 
   QualifyingElement:
+    allow_element_with_attribute: true
     exclude: # These files currently have qualifying elements
       - 'assets/flagship/scss/partials/_common-classes.scss'
       - 'assets/flagship/scss/partials/_gravity-forms.scss'
