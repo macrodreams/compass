@@ -51,7 +51,6 @@ module.exports = {
 			'sass:theme',
 			'autoprefixer',
 			'wpcss:css',
-			'replace:stylecomments',
 			'cssjanus',
 			'cssmin:style',
 			'replace:style',
