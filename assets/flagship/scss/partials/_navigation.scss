@@ -231,13 +231,15 @@
 			border-bottom: 1px solid $sidr-border-color;
 		}
 
-		li a:hover {
+		li a:hover,
+		li a:focus {
 			color: $sidr-hover-color;
 			background: lighten($sidr-background-color, 3);
 		}
 	}
 
-	.sub-menu {
+	.sub-menu,
+	.sub-menu .sub-menu {
 		position: static;
 		width: 100%;
 		margin: 0;
@@ -258,9 +260,15 @@
 			border-right: 0;
 		}
 
-		.sub-menu li a {
-			padding-left: $sidr-item-padding + 20px;
+		li a:hover,
+		li a:focus {
+			color: $sidr-hover-color;
+			background: lighten($sidr-background-color, 3);
 		}
+	}
+
+	.sub-menu .sub-menu li a {
+		padding-left: $sidr-item-padding + 20px;
 	}
 }
 
