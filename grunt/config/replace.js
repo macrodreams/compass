@@ -18,25 +18,6 @@ module.exports = {
 			]
 		}]
 	},
-	stylecomments: {
-		options: {
-			patterns: [
-				{
-					// Change normalize.css === comment headings to ---
-					match: /==/g,
-					replacement: '--'
-				}
-			]
-		},
-		files: [
-			{
-				expand: true,
-				src: [
-					'<%= paths.tmp %>style.css'
-				]
-			}
-		]
-	},
 	genericons: {
 		options: {
 			patterns: [

@@ -11,7 +11,7 @@ module.exports = {
 			bourbon: 'bourbon/dist',
 			neat: 'neat/app/assets/stylesheets',
 			genericons: 'genericons/genericons',
-			normalize: 'normalize.css/normalize.css'
+			'wp-normalize': 'wp-normalize.scss/_wp-normalize.scss'
 		}
 	},
 	js: {

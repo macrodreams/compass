@@ -32,11 +32,9 @@ build:
 'build:css':
   - 'clean:style'
   - 'build:dependencies'
-  - 'rename:normalize'
   - 'newer:sass'
   - 'newer:autoprefixer'
   - 'newer:wpcss:css'
-  - 'newer:replace:stylecomments'
   - 'newer:cssjanus'
   - 'newer:cssmin'
   - 'newer:replace:style'
