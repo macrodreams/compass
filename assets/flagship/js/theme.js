@@ -131,7 +131,6 @@ window.compass = window.compass || {};
 			});
 		},
 
-
 		//* FitVids Init
 		loadFitVids: function() {
 			if ( $.fn.fitVids ) {
