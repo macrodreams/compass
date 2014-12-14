@@ -6,17 +6,17 @@
   "license": "GPL-2.0+",
   "private": true,
   "bugs": {
-    "url": "http://flagshipwp.com/support",
+    "url": "https://flagshipwp.com/support",
     "email": "support@flagshipwp.com"
   },
   "contributors": [
     {
       "name": "Flagship",
-      "url": "http://flagshipwp.com"
+      "url": "https://flagshipwp.com"
     },
     {
       "name": "Robert Neu",
-      "url": "http://flagshipwp.com"
+      "url": "https://flagshipwp.com"
     },
     {
       "name": "Gary Jones",
@@ -25,10 +25,10 @@
   ],
   "theme": {
     "name": "Compass",
-    "uri": "http://flagshipwp.com/themes/compass/",
+    "uri": "https://flagshipwp.com/themes/compass/",
     "description": "The most advanced WordPress Starter theme ever created. Built with Hybrid Core, Theme Hook Alliance, Bourbon, and Neat.",
     "author": "Flagship",
-    "authoruri": "http://flagshipwp.com",
+    "authoruri": "https://flagshipwp.com",
     "tags": "white, light, one-column, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, editor-style, featured-images, 'seo-friendly', microformats, post-formats, sticky-post, translation-ready",
     "license": "GPL-2.0+",
     "licenseuri": "http://www.gnu.org/licenses/gpl-2.0.html",

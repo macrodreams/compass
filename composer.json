@@ -2,14 +2,14 @@
   "name": "flagshipwp/compass",
   "description": "The most advanced WordPress Starter theme ever created.",
   "keywords": ["wordpress", "theme", "flagship"],
-  "homepage": "http://flagshipwp.com",
+  "homepage": "https://flagshipwp.com",
   "type": "wordpress-theme",
   "license": "GPL-2.0+",
   "authors": [
     {
       "name": "Robert Neu",
       "email": "rob@flagshipwp.com",
-      "homepage": "http://flagshipwp.com"
+      "homepage": "https://flagshipwp.com"
     },
     {
       "name": "Gary Jones",
