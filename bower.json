@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "bourbon": "~4.0.2",
-    "neat": "~1.7.0",
+    "bourbon": "~4.1",
+    "neat": "~1.7",
     "genericons": "Automattic/Genericons#master",
-    "wp-normalize.scss": "~1.0.0",
-    "fitvids": "~1.1.0",
+    "wp-normalize.scss": "~1.0",
+    "fitvids": "~1.1",
     "accessible-menu": "GaryJones/accessible-menu#master",
-    "sidr": "~1.2.1"
+    "sidr": "~1.2"
   }
 }
