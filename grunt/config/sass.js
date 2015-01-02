@@ -2,6 +2,7 @@
 module.exports = {
 	options: {
 		force: true,
+		sourcemap: 'none',
 		style: 'expanded',
 		trace: true,
 		lineNumbers: true
@@ -35,7 +36,6 @@ module.exports = {
 	},
 	editorstyle: {
 		options: {
-			sourcemap: 'none',
 			lineNumbers: false,
 			banner:
 				'/*!\n' +
