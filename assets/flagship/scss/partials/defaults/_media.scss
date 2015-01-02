@@ -32,6 +32,7 @@ a:focus img {
 }
 
 .gallery-item {
+	line-height: 0;
 	list-style: none;
 	margin: 0 0 2.35765%;
 	overflow: hidden;
@@ -111,6 +112,7 @@ a:focus img {
 		background: transparentize($gallery-caption-background-color, 0.5);
 		color: $gallery-caption-font-color;
 		font-size: $gallery-caption-font-size;
+		line-height: 1.65;
 		max-height: 50%;
 		opacity: 0;
 		overflow: hidden;
