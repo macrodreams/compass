@@ -31,6 +31,9 @@ a[href^="tel:"]::before,
 .chat-author cite::before,
 .entry-views::before,
 
+// Author box
+.social-icons li a::before,
+
 // Comments
 .comment-published::before,
 .comment-edit-link::before,
@@ -177,6 +180,24 @@ a[href^="tel:"]::before {
 
 .format-video .post-format-link::before {
 	content: "\f104";
+}
+
+/* Author Box Icons
+---------------------- */
+.social-gplus a::before {
+	content: "\f206";
+}
+
+.social-twitter a::before {
+	content: "\f202";
+}
+
+.social-facebook a::before {
+	content: "\f203";
+}
+
+.social-rss a::before {
+	content: "\f413";
 }
 
 /* Entry View Icons
