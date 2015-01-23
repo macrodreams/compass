@@ -9,7 +9,7 @@ module.exports = {
 			'Opera >= 12.1',
 			'Safari >= 6.0'
 		],
-		map: true,
+		map: false,
 		diff: '<%= paths.logs %>autoprefixer.diff'
 	},
 	theme: {
