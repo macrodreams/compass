@@ -5,7 +5,7 @@ module.exports = {
 		sourcemap: 'none',
 		style: 'expanded',
 		trace: true,
-		lineNumbers: true
+		lineNumbers: false
 	},
 	theme: {
 		options: {
