@@ -1,7 +1,8 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
 	options: {
-		report: 'gzip'
+		report: 'gzip',
+		sourceMap: true
 	},
 	style: {
 		expand: true,
