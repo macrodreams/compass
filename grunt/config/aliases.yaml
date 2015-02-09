@@ -59,7 +59,7 @@ build:
 # Build internationalization features
 'build:i18n':
   - 'clean:languages'
-  - 'addtextdomain:flagshiplibrary'
+  - 'addtextdomain'
   - 'makepot'
   - 'potomo'
   - 'newer:copy:languages'
