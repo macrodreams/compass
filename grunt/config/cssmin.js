@@ -2,7 +2,7 @@
 module.exports = {
 	options: {
 		report: 'gzip',
-		sourceMap: true
+		sourceMap: false
 	},
 	style: {
 		expand: true,
