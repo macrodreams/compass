@@ -31,7 +31,7 @@ module.exports = {
 				cwd: '<%= paths.tmp %>',
 				expand: true,
 				flatten: true,
-				src: ['editor-style*.css'],
+				src: ['editor-style*.css', 'editor-style*.map'],
 				dest: '<%= paths.theme %>css/',
 				filter: 'isFile'
 			}
