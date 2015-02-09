@@ -81,6 +81,7 @@ default:
   - watch
 newtheme:
   - 'replace:packagename'
+  - 'readpkg'
   - 'build'
 # Package the distribution files into a zip
 package:
