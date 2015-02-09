@@ -8,7 +8,7 @@ build:
   - 'build:images'
   - 'build:js'
   - 'build:i18n'
-# Build depdencies
+# Build dependencies
 'build:dependencies':
   - 'build:dependencies:css'
   - 'build:dependencies:js'
@@ -35,6 +35,7 @@ build:
   - 'newer:sass'
   - 'newer:autoprefixer'
   - 'newer:wpcss:css'
+  - 'newer:usebanner'
   - 'newer:cssjanus'
   - 'newer:cssmin'
   - 'newer:replace:style'
@@ -55,7 +56,7 @@ build:
   - 'newer:concat:js'
   - 'newer:uglify'
   - 'newer:jsvalidate:theme'
-# Build internationalisation features
+# Build internationalization features
 'build:i18n':
   - 'clean:languages'
   - 'addtextdomain:flagshiplibrary'

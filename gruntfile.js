@@ -63,8 +63,9 @@ module.exports = function( grunt ) {
 		jitGrunt: {
 			staticMappings: {
 				addtextdomain: 'grunt-wp-i18n',
-				scsslint: 'grunt-scss-lint',
 				makepot: 'grunt-wp-i18n',
+				scsslint: 'grunt-scss-lint',
+				usebanner: 'grunt-banner',
 				wpcss: 'grunt-wp-css'
 			},
 			loadTasks: project.paths.tasks
